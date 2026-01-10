@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #eee;
+}
+
+header {
+  height: 35vh;
+  position: relative;
+  border-bottom: 0.7rem solid #eee;
+}
+
+main {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 65vh;
+}
+
+.right {
+  width: 54rem;
+  font-size: 2rem;
+}
+
+.left {
+  width: 54rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  text-align: center;
+  background-color: #eee;
+  color: #222;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  transform: translate(-50%, 50%);
+}
+
+.range {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.guess {
+  display: block;
+  background-color: none;
+  font-family: inherit;
+  color: #000;
+  text-align: center;
+  margin-bottom: 3rem;
+  border: 0.4rem solid #eee;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+}
+
+.btn {
+  font-size: 2rem;
+  background-color: #eee;
+  color: #222;
+  border: none;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.message {
+  margin-bottom: 4rem;
+  height: 3rem;
+}
+
+.label-score {
+  margin-bottom: 1rem;
+}
+
+.progress-container {
+  width: 100%;
+  background: #444;
+  height: 2rem;
+  margin: 1.5rem 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #60b347;
+  transition: width 0.3s;
+}
+
+.timer {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.level {
+  margin: 1rem;
+  font-size: 1.8rem;
+}
