@@ -135,3 +135,51 @@ h1 {
   margin: 1rem;
   font-size: 1.8rem;
 }
+
+@media (max-width: 600px) {
+  header {
+    height: 25vh;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .again {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+
+  main {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .right,
+  .left {
+    width: 90%;
+    text-align: center;
+  }
+
+  .message {
+    margin-bottom: 2rem;
+  }
+
+  .guess {
+    width: 50%;
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem 0;
+  }
+
+  .number {
+    font-size: 2rem;
+    width: 8rem;
+    padding: 2rem 0rem;
+  }
+
+  .leaderboard {
+    max-height: 15rem;
+    overflow-y: auto;
+  }
+}
